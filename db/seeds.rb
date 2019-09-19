@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+milk = Team.new(name: "milk")
+milk.save
+player = Player.new(firstname: "marc", lastname: "lee", team: milk)
+player.save
