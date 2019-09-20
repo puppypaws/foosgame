@@ -17,7 +17,6 @@ rails s
 Command line 'rails dbconsole' , 
 Basic seed file included
 
-* Version Updates
 # 1.0
 * PSQL tables for Players & Teams
 * Player table contains team_id as association
