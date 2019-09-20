@@ -17,7 +17,7 @@ rails s
 Command line 'rails dbconsole' , 
 Basic seed file included
 
-# 1.0
+# 1.0 Alpha
 * PSQL tables for Players & Teams
 * Player table contains team_id as association
 * Routes for Players & Teams (eg. localhost:3000/players/new)
