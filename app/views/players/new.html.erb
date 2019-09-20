@@ -3,13 +3,13 @@
     <%= form.collection_select :team_id, @teams, :id, :name%>
 
     <p>
-        <%= form.label :firstname %>
+        <%= form.label :firstname, placeholder = "First name"%>
         <br>
         <%= form.text_area :firstname %>
     </p>
 
     <p>
-        <%= form.label :lastname %>
+        <%= form.label :lastname, placeholder = "Last name" %>
         <br>
         <%= form.text_area :lastname %>
     </p>

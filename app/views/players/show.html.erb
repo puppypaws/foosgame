@@ -1,4 +1,13 @@
-<p>This is the player you just created</p>
-    <p><%= @player.firstname %></p>
-    <p><%= @player.lastname %></p>
-    <p><%= @player.team_id %></p>
+<p>This is player <%= @player.id %></p>
+
+    <p>First name:
+    <br>
+    <%= @player.firstname %>
+    </p>
+
+    <p>Last name:
+    <br>
+    <%= @player.lastname %>
+    </p>
+    
+    <p>Team <%= @player.team.name %></p>
