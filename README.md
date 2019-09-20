@@ -1,24 +1,32 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 * Ruby version
+2.5.1
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+* Database
+PSQL
 
 * Deployment instructions
+bundle i , 
+rails db:create , 
+rails db:migrate , 
+rails db:seed , 
+rails s
 
-* ...
+* Database
+Command line 'rails dbconsole' , 
+Basic seed file included
+
+# 1.0 Alpha
+* PSQL tables for Players & Teams
+* Player table contains team_id as association
+* Routes for Players & Teams (eg. localhost:3000/players/new)
+* Views: Index/Show/New
+
+# To-do (Somewhat in order)
+* Form for Teams
+* PSQL tables for Games/Matches
+* Association between Teams & Games/Matches
+* Assocation between Games & Matches
+* Play logic for Games via Math.random
+* Win/loss tracking for Games/Matches
