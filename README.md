@@ -7,18 +7,22 @@
 PSQL
 
 * Deployment instructions
-'Bundle i' , 
-'Rails s'
+bundle i , 
+rails db:create , 
+rails db:migrate , 
+rails db:seed , 
+rails s
 
 * Database
-Command line 'rails dbconsole'
+Command line 'rails dbconsole' , 
+Basic seed file included
 
 * Version Updates
 # 1.0
 * PSQL tables for Players & Teams
 * Player table contains team_id as association
 * Routes for Players & Teams (eg. localhost:3000/players/new)
-* Views: Index/Show/New 
+* Views: Index/Show/New
 
 # To-do (Somewhat in order)
 * Form for Teams
