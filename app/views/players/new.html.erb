@@ -1,0 +1,21 @@
+<%= form_with scope: :player, url: players_path, local: true do |form| %>
+
+    <%= form.collection_select :team_id, @teams, :id, :name%>
+
+    <p>
+        <%= form.label :firstname %>
+        <br>
+        <%= form.text_area :firstname %>
+    </p>
+
+    <p>
+        <%= form.label :lastname %>
+        <br>
+        <%= form.text_area :lastname %>
+    </p>
+
+    <p>
+        <%= form.submit %>
+    </p>
+
+<% end %>
