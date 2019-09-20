@@ -7,9 +7,11 @@
 PSQL
 
 * Deployment instructions
-Bundle i
-Rails s
-Database access via command line 'rails dbconsole' or 'psql'
+'Bundle i' , 
+'Rails s'
+
+* Database
+Command line 'rails dbconsole'
 
 * Version Updates
 # 1.0
